@@ -1,0 +1,109 @@
+body{
+    background-color: black;
+}
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+i{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 2vh;
+    cursor: pointer;
+}
+.login{
+    position: relative;
+}
+.dropdown{
+    position: absolute;
+    background-color: #05050515;
+    padding: 0px;
+    margin-left:5px ;
+    border-radius: 30px;
+    box-shadow:0 4px 12px rgba(249, 250, 252, 0.74);
+    display: none;
+    transition: 0.7s;
+    border: 2px solid #0099ff;
+}
+.login:hover .dropdown{
+    display: block;
+}
+.dropdown li{
+    display: block;
+}
+.title{
+    display: flex;
+    gap: 50px;
+}
+
+.logo{
+    height: 35vh;
+    width: 45vh;
+    padding: 20px;
+    border-radius: 50%;
+    border-right: 10px outset #0099ff;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    scale: 1.0;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    color: #0099ff;
+   font-size:31px;
+}
+nav ul li a::after{
+    content: '';
+    height: 3px;
+    width: 100%;
+    color: #0099ff;
+    top: 0;
+    position: absolute;
+    bottom:-5px;
+    left:0;
+}
+.navbar li{
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px;
+}
+.content{
+    display: flex;
+    margin: 0;
+}
+.content h1{
+        color: #0099ff;
+        margin:3vh 5vh;
+        font-size:40px;
+        
+    }
+    .content h3{
+        color: #e7ebee;
+        margin:0vh 5vh;
+        font-size:25px;
+    }
+.image{
+    height: 50vh;
+    width: 80vh;
+    background-image: url(./hands\ image.jpg);
+    background-size: cover;
+    margin: 0 30vh;
+    border-radius:50%;
+    border-right: 12px outset #0099ff;
+}
+.quote{
+    color:white;
+    font-size: 20px;
+    margin: 0 20vh;
+    top: 20px;
+}
+.quote h3{
+    font-family: 'Jomolhari', serif;
+}
+span{
+    font-family: 'Jomolhari', serif;
+}

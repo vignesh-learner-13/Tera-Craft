@@ -1,0 +1,105 @@
+body{
+    background-color: black;
+}
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+i{
+    color: white;
+    font-size: 35px;
+}
+i:hover{
+    color: #0099ff;
+}
+.solution{
+    display: flex;
+    transition: 0.5s;
+    margin-top: 6vh;
+}
+.cont h1{
+    color: #0099ff;
+    margin: 6vh 8vh;
+}
+.cont h3{
+    color: white;
+    margin: 0 8vh;
+    font-family: 'Jomolhari', serif;
+    font-weight: bold;
+    font-weight: lighter;
+    font-size: 20px;
+    letter-spacing: 7px;
+}
+.cont2 h1{
+    color: #0099ff;
+   margin-top: 6vh;
+   margin-left: 110vh;
+}
+.cont2 h3{
+    color: white;
+    margin-top: 0;
+   margin-left: 12vh;
+   margin-right:  3vh;
+    font-family: 'Jomolhari', serif;
+    font-weight: bold;
+    font-weight: lighter;
+    font-size: 20px;
+    letter-spacing: 7px;
+}
+.img1{
+    height: 30vh;
+    width: 30vh;
+    background-image: url(./img1.jpg);
+    background-size: cover;
+    margin-top: 5vh;
+    margin-left: 10vh;
+    margin-bottom: 3vh;
+    border-radius:50%;
+    border-right: 12px outset #0099ff;
+    
+}
+.img3{
+    height: 30vh;
+    width: 30vh;
+    background-image: url(./AI.png);
+    background-size: cover;
+    margin-top: 5vh;
+    margin-left: 10vh;
+    margin-bottom: 3vh;
+    border-radius:50%;
+    border-right: 12px outset #0099ff;
+    
+}
+.img2{
+    height: 30vh;
+    width: 30vh;
+    background-image: url(./image1.png);
+    background-size: cover;
+    margin-top: 5vh;
+    margin-left: 10vh;
+    margin-bottom: 3vh;
+    border-radius:50%;
+    border-left: 12px outset #0099ff;
+    
+}
+.img4{
+    height: 30vh;
+    width: 30vh;
+    background-image: url(./RES.png);
+    background-size: cover;
+    margin-top: 5vh;
+    margin-left: 10vh;
+    margin-bottom: 3vh;
+    border-radius:50%;
+    border-left: 12px outset #0099ff;
+    
+}
+.solution:hover{
+   background-color: rgba(137, 184, 246, 0.499);
+    border-radius: 30px;
+
+}
+.con h1{
+    color: white;
+    font-size: 50px;
+}
